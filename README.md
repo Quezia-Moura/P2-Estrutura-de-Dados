@@ -1,9 +1,9 @@
 ![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/244c330a-a38a-44a0-b046-47e94294cdef)
 <br>
 <h1>TRABALHO DE AVALIAÇÃO – P2</h1>
-<h3>Alunos: João Lopes e Quézia Moura</h3>
-<h2>Professor: Márcio Garrido</h2
-<h2>Disciplina: Estrutura de Dados</h2>
+<h2>Alunos: João Lopes e Quézia Moura</h2>
+<h3>Professor: Márcio Garrido</h3>
+<h3>Disciplina: Estrutura de Dados</h3>
 <hr>
 ENUNCIADO
 <br><p>  A Universidade de Vassouras do Campus 1 foi convidada pela prefeitura de Maricá para promover uma solução tecnológica em um dos problemas sociais da cidade, o abandono de animais. Mesmo considerado crime (O abandono de animais é crime, previsto na Lei de Crimes Ambientais - Lei Federal n° 9.605 de 1998), e notório que o índice de abandono vem crescendo a cada ano.
