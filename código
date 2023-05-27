@@ -1,1 +1,14 @@
+class Animal:
+    def __init__(self, tipo):
+        self.tipo = tipo
 
+
+class Canino(Animal):
+    def __init__(self, tipo, idade, cor, porte, particularidade):
+        super().__init__(tipo)
+        self.idade = idade
+        self.cor = cor
+        self.porte = porte
+        self.particularidade = particularidade
+
+        
