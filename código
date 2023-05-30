@@ -1,3 +1,31 @@
+def cadastrar_pessoa():
+    print('''
+    ||===============================||
+    ||                               ||
+    ||    ( 1 ) QUER DOAR            ||
+    ||    ( 2 ) QUER ADOTAR          ||
+    ||    ( 3 ) DOAR E ADOTAR        || 
+    ||    ( X ) VOLTAR               ||
+    ||                               ||
+    ||===============================||
+    ''')
+    o = input('Selecione uma opção: ')
+    if o == '1':
+        quer_doar()
+    if o == '2':
+        quer_adotar()
+    if o == '3':
+        doar_adotar()
+    if o == 'x' or o == 'X':
+        menu()
+        
+        
+
+def consultar():
+    ...
+
+
+
 def menu():
     while True:    
         print('''
