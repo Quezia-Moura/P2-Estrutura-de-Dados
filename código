@@ -1,3 +1,10 @@
+canino = {'Tipo: ': 'Cão', 'Idade: ': '2', 'Cor: ': 'Bege', 'Porte: ': 'Médio', 'Particularidade: ': 'Não'}
+
+
+def cadastrar_animal():
+    ...
+
+
 def cadastrar_pessoa():
     print('''
     ||===============================||
@@ -18,12 +25,10 @@ def cadastrar_pessoa():
         doar_adotar()
     if o == 'x' or o == 'X':
         menu()
-        
-        
+               
 
 def consultar():
     ...
-
 
 
 def menu():
