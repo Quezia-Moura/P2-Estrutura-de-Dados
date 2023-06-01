@@ -1,8 +1,8 @@
 ![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/244c330a-a38a-44a0-b046-47e94294cdef)
 
-<h1>TRABALHO DE AVALIAÇÃO – P2</h1>
-<h2>Alunos: João Lopes e Quézia Moura</h2>
-<h3>Professor: [Márcio Garrido](https://github.com/marciogarridoLaCop)</h3>
+<h1>SOFTWARE PARA ADOÇÃO DE ANIMAIS</h1>
+<h2>Alunos: João Victor Lopes dos Santos e Quézia Trindade Moura</h2>
+<h3>Professor: [Márcio Alexandre Dias Garrido]([url](https://github.com/marciogarridoLaCop))</h3>
 <h3>Disciplina: Estrutura de Dados</h3>
 <hr>
 
@@ -14,4 +14,9 @@
 pessoas interessadas na adoção, contendo os dados principais de contato e qual espécie teria o interesse de adotar. Ao escolher a espécie, deve também informar se possui alguma preferência do animal. Por fim, no final do mês a prefeitura emitirá um relatório de cruzamento de espécies disponíveis x possíveis candidatos, ou quando um candidato a adoção ligar, que o atendente possa pesquisar se há algum animal com as características informadas.
 
   Os alunos anotaram atentamente a todas as observações, criaram o fluxograma do estudo de caso, e posteriormente o primeiro protótipo em Python, ainda que em modo texto, e sem requisitos gráficos. A ideia foi apenas validar a proposta do programa junto ao solicitante.
+<hr>
+
+<h4>FLUXOGRAMA</h4>
+![adoção de animais](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/02468491-3175-410e-9653-836a6da53c9d)
+
 <hr>
