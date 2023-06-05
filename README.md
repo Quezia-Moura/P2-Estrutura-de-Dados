@@ -1,4 +1,5 @@
-![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/244c330a-a38a-44a0-b046-47e94294cdef)
+![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/102929131/145be61a-2121-45f3-ba86-b1c9efa86c68)
+
 
 <h1>SOFTWARE PARA ADOÇÃO DE ANIMAIS</h1>
 <h2>Alunos: João Victor Lopes dos Santos e Quézia Trindade Moura</h2>
@@ -17,6 +18,7 @@ pessoas interessadas na adoção, contendo os dados principais de contato e qual
 <hr>
 
 <h4>FLUXOGRAMA</h4>
+
 ![adoção de animais](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/02468491-3175-410e-9653-836a6da53c9d)
 
 <hr>
