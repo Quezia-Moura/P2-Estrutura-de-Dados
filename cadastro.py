@@ -15,7 +15,7 @@ def cadastrar_animal():
 
 def info_pessoa():
     ...
-    print('\n\t INFORMAR DADOS PESSOAIS')
+    print('\n\tINFORME OS DADOS PESSOAIS')
     nome = input('Nome: ')
     cpf = input('CPF: ')
     idade = int(input('Idade: '))
@@ -26,18 +26,12 @@ def info_pessoa():
 
 def quer_doar():
     ...
-    info_pessoa()
-
 
 def quer_adotar():
     ...
-    info_pessoa()
-
 
 def doar_e_adotar():
     ...
-    info_pessoa()
-
 
 
 def cadastrar_pessoa():
@@ -52,10 +46,13 @@ def cadastrar_pessoa():
     ''')
     o = input('Selecione uma opção: ')
     if o == '1':
+        info_pessoa()
         quer_doar()
     if o == '2':
+        info_pessoa()
         quer_adotar()
     if o == '3':
+        info_pessoa()
         doar_e_adotar()
         
         
