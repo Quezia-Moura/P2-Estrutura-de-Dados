@@ -3,7 +3,11 @@
 
 <h1>SOFTWARE PARA ADOÇÃO DE ANIMAIS</h1>
 <h2>Alunos: João Victor Lopes dos Santos e Quézia Trindade Moura</h2>
-<h3>Professor: [Márcio Alexandre Dias Garrido]([url](https://github.com/marciogarridoLaCop))</h3>
+<h3>Professor: 
+
+[Marcio Alexandre Dias Garrido][identificador]
+
+[identificador]: https://github.com/marciogarridoLaCop</h3>
 <h3>Disciplina: Estrutura de Dados</h3>
 <hr>
 
