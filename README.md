@@ -23,6 +23,7 @@ pessoas interessadas na adoção, contendo os dados principais de contato e qual
 
 <h4>FLUXOGRAMA</h4>
 
-![adoção de animais](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/02468491-3175-410e-9653-836a6da53c9d)
+![adoção de animais] ![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/133873524/0af13915-4ca9-4dba-99dd-1cef4fdd11c6)
+
 
 <hr>
