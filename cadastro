@@ -1,0 +1,65 @@
+canino = {'Tipo: ': 'Cão', 'Idade: ': '2', 'Cor: ': 'Bege', 'Porte: ': 'Médio', 'Particularidade: ': 'Não'}
+
+
+
+def cadastrar_animal():
+    ...
+    print('\n\tINFORME DETALHES SOBRE O ANIMAL')
+    t = input('Tipo: ')
+    i = int(input('Idade: '))
+    c = input('Cor: ')
+    p = input('Porte: ')
+    part = input('Particularidade: ')
+
+
+
+def info_pessoa():
+    ...
+    print('\n\t INFORMAR DADOS PESSOAIS')
+    nome = input('Nome: ')
+    cpf = input('CPF: ')
+    idade = int(input('Idade: '))
+    endereço = input('Endereço: ')
+    telefone = input('Telefone: ')
+
+
+
+def quer_doar():
+    ...
+    info_pessoa()
+
+
+def quer_adotar():
+    ...
+    info_pessoa()
+
+
+def doar_e_adotar():
+    ...
+    info_pessoa()
+
+
+
+def cadastrar_pessoa():
+    print('''
+    ||===============================||
+    ||                               ||
+    ||    ( 1 ) QUER DOAR            ||
+    ||    ( 2 ) QUER ADOTAR          ||
+    ||    ( 3 ) DOAR E ADOTAR        || 
+    ||                               ||
+    ||===============================||
+    ''')
+    o = input('Selecione uma opção: ')
+    if o == '1':
+        quer_doar()
+    if o == '2':
+        quer_adotar()
+    if o == '3':
+        doar_e_adotar()
+        
+        
+      
+def consultar():
+    ...
+
