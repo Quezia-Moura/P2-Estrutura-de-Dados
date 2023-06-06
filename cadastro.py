@@ -6,11 +6,13 @@ def cadastrar_animal():
     ...
     print('\n\tINFORME DETALHES SOBRE O ANIMAL')
     t = input('Tipo: ')
-    i = int(input('Idade: '))
+    while not t.isalpha():
+        print('Tipo inválido!')
+        t = input('Tipo: ')
+    i = int(input('Idade: ')) 
     c = input('Cor: ')
     p = input('Porte: ')
     part = input('Particularidade: ')
-
 
 
 def info_pessoa():
