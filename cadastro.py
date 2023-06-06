@@ -14,6 +14,9 @@ def cadastrar_animal():
         print('Idade inválida!')
         i = input('Idade: ')
     c = input('Cor: ')
+    while not c.isalpha():
+        print('Cor inválida!')
+        c = input('Cor: ')
     p = input('Porte: ')
     part = input('Particularidade: ')
 
