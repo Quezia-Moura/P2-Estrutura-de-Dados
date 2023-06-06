@@ -7,7 +7,8 @@
 
 [Marcio Alexandre Dias Garrido][identificador]
 
-[identificador]: https://github.com/marciogarridoLaCop</h3>
+[identificador]: https://github.com/marciogarridoLaCop
+</h3>
 <h3>Disciplina: Estrutura de Dados</h3>
 <hr>
 
@@ -23,8 +24,6 @@ pessoas interessadas na adoção, contendo os dados principais de contato e qual
 
 <h4>FLUXOGRAMA</h4>
 
-![adoção de animais] ![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/133873524/c26cd1cf-1ae9-46e7-addc-c5b1e6187e8b)
-
-
+![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/133873524/c26cd1cf-1ae9-46e7-addc-c5b1e6187e8b)
 
 <hr>
