@@ -9,7 +9,10 @@ def cadastrar_animal():
     while not t.isalpha():
         print('Tipo inválido!')
         t = input('Tipo: ')
-    i = int(input('Idade: ')) 
+    i = input('Idade: ')
+    while not i.isnumeric():
+        print('Idade inválida!')
+        i = input('Idade: ')
     c = input('Cor: ')
     p = input('Porte: ')
     part = input('Particularidade: ')
