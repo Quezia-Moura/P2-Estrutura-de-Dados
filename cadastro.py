@@ -32,10 +32,27 @@ def info_pessoa():
     ...
     print('\n\tINFORME OS DADOS PESSOAIS')
     nome = input('Nome: ')
+    while not nome.isalpha():
+        print('Nome inválido!')
+        nome = input('Nome: ')
     cpf = input('CPF: ')
-    idade = int(input('Idade: '))
+    while not cpf.isnumeric():
+        print('Cpf inválido!')
+        cpf = input('CPF: ')
+    idade = input('Idade: ')
+    while not idade.isnumeric():
+        print('Idade inválida!')
+        idade = input('Idade: ')
     endereço = input('Endereço: ')
+    while not endereço.isalpha():
+        print('Endereço inválido')
+        endereço = input('Endereço: ')
     telefone = input('Telefone: ')
+    while not telefone.isnumeric():
+        print('Telefone inválido!')
+        telefone = input('Telefone: ')
+
+
 
 
 
