@@ -1,7 +1,5 @@
 canino = {'Tipo: ': 'Cão', 'Idade: ': '2', 'Cor: ': 'Bege', 'Porte: ': 'Médio', 'Particularidade: ': 'Não'}
 
-
-
 def cadastrar_animal():
     ...
     print('\n\tINFORME DETALHES SOBRE O ANIMAL')
@@ -35,10 +33,13 @@ def info_pessoa():
     while not nome.isalpha():
         print('Nome inválido!')
         nome = input('Nome: ')
-    cpf = input('CPF: ')
+    cpf = input('CPF sem traços e pontos: ')
     while not cpf.isnumeric():
-        print('Cpf inválido!')
-        cpf = input('CPF: ')
+        print('Cpf inválido')
+        cpf = input('CPF sem traços e pontos: ')
+    if len(cpf) == 11 and cpf.isnumeric():
+        cpf_formatado = cpf[0:3] + '.' + cpf[3:6] + '.' + cpf[6:9] + '-' + cpf[9:]
+    print(cpf_formatado)
     idade = input('Idade: ')
     while not idade.isnumeric():
         print('Idade inválida!')
