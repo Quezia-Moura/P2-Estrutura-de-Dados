@@ -35,9 +35,12 @@ def info_pessoa():
         nome = input('Nome: ')
     cpf = input('CPF sem traços e pontos: ')
     while not cpf.isnumeric():
-        print('Cpf inválido')
+        print('Cpf inválido!')
         cpf = input('CPF sem traços e pontos: ')
-    if len(cpf) == 11 and cpf.isnumeric():
+    while len(cpf) < 11:
+        print('cpf inválido!')
+        cpf = input('CPF sem traços e pontos: ')
+    if len(cpf) == 11:
         cpf_formatado = cpf[0:3] + '.' + cpf[3:6] + '.' + cpf[6:9] + '-' + cpf[9:]
     print(cpf_formatado)
     idade = input('Idade: ')
