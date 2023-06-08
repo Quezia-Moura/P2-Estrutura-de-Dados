@@ -1,7 +1,11 @@
+from os import name, system
+from time import sleep
+
+
 canino = {'Tipo: ': 'Cão', 'Idade: ': '2', 'Cor: ': 'Bege', 'Porte: ': 'Médio', 'Particularidade: ': 'Não'}
 
 def cadastrar_animal():
-    ...
+    limpar()
     print('\n\tINFORME DETALHES SOBRE O ANIMAL')
 
     t = input('Tipo: ')
@@ -32,7 +36,7 @@ def cadastrar_animal():
 
 
 def info_pessoa():
-    ...
+    limpar() 
     print('\n\tINFORME OS DADOS PESSOAIS')
 
     nome = input('Nome: ')
@@ -69,16 +73,17 @@ def info_pessoa():
         print(telefone)
 
 def quer_doar():
-    ...
+    limpar() 
 
 def quer_adotar():
-    ...
+    limpar() 
 
 def doar_e_adotar():
-    ...
+    limpar() 
 
 
 def cadastrar_pessoa():
+    limpar() 
     print('''
     ||===============================||
     ||                               ||
@@ -102,5 +107,12 @@ def cadastrar_pessoa():
         
       
 def consultar():
-    ...
+    limpar() 
 
+
+def limpar():
+    if name == 'nt':
+        limpar = 'cls'
+    else:
+        limpar = 'clear'
+    system(limpar)
