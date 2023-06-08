@@ -57,7 +57,7 @@ def info_pessoa():
         idade = input('Idade: ')
 
     endereço = input(str('Endereço: '))
-    
+
     telefone = input('Telefone com DDD: ')
     while not telefone.isnumeric():
         print('Telefone inválido!')
@@ -65,6 +65,8 @@ def info_pessoa():
     while len(telefone) < 11:
         print('telefone inválido!')
         telefone = input('Telefone com DDD: ')
+    if len(telefone) == 11:
+        print(telefone)
 
 def quer_doar():
     ...
