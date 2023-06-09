@@ -4,44 +4,48 @@ from time import sleep
 
 
 def cadastrar_animal():
-    limpar()
+    limpar()    
     print('\n\tINFORME DETALHES SOBRE O ANIMAL')
 
     t = input('Tipo: ')
     while not t.isalpha():
         print('Tipo inválido!')
         t = input('Tipo: ')
+    tipo.append(t)
 
     i = input('Idade: ')
     while not i.isnumeric():
         print('Idade inválida!')
         i = input('Idade: ')
+    idade.append(i)
 
     c = input('Cor: ')
     while not c.isalpha():
         print('Cor inválida!')
         c = input('Cor: ')
+    cor.append(c)
 
     p = input('Porte: ')
     while not p.isalpha():
         print('Porte inválido!')
         p = input('Porte: ')
+    porte.append(p)
 
     part = input('Particularidade: ')
     while not part.isalpha():
         print('Particularidade inválida!')
         part = input('Particularidade: ')
-
+    particularidade.append(part)
 
 
 def info_pessoa():
-    limpar() 
+    limpar()
     print('\n\tINFORME OS DADOS PESSOAIS')
 
-    nome = input('Nome: ')
-    while not nome.isalpha():
+    n = input('Nome: ')
+    while not n.isalpha():
         print('Nome inválido!')
-        nome = input('Nome: ')
+        n = input('Nome: ')
 
     cpf = input('CPF sem traços e pontos: ')
     while not cpf.isnumeric():
@@ -54,35 +58,41 @@ def info_pessoa():
         cpf_formatado = cpf[0:3] + '.' + cpf[3:6] + '.' + cpf[6:9] + '-' + cpf[9:]
     print(cpf_formatado)
 
-    idade = input('Idade: ')
-    while not idade.isnumeric():
+    i_p = input('Idade: ')
+    while not i_p.isnumeric():
         print('Idade inválida!')
-        idade = input('Idade: ')
+        i_p = input('Idade: ')
 
-    endereço = input(str('Endereço: '))
+    end = input(str('Endereço: '))
 
-    telefone = input('Telefone com DDD: ')
-    while not telefone.isnumeric():
+    tel = input('Telefone com DDD: ')
+    while not tel.isnumeric():
         print('Telefone inválido!')
-        telefone = input('Telefone com DDD: ')
-    while len(telefone) < 11:
+        tel = input('Telefone com DDD: ')
+    while len(tel) < 11:
         print('telefone inválido!')
-        telefone = input('Telefone com DDD: ')
-    if len(telefone) == 11:
-        print(telefone)
+        tel = input('Telefone com DDD: ')
+    if len(tel) == 11:
+        print(tel)
+
 
 def quer_doar():
-    limpar() 
+    limpar()
+
 
 def quer_adotar():
-    limpar() 
+    limpar()
+    especie = str(input('Qual espécie quer adotar? '))
+    preferencia = str(input('Possui alguma preferência? '))
+    
+
 
 def doar_e_adotar():
-    limpar() 
+    limpar()
 
 
 def cadastrar_pessoa():
-    limpar() 
+    limpar()
     print('''
     ||===============================||
     ||                               ||
@@ -106,7 +116,7 @@ def cadastrar_pessoa():
         
       
 def consultar():
-    limpar() 
+    limpar()
 
 
 def limpar():
