@@ -1,8 +1,7 @@
+from dados import *
 from os import name, system
 from time import sleep
 
-
-canino = {'Tipo: ': 'Cão', 'Idade: ': '2', 'Cor: ': 'Bege', 'Porte: ': 'Médio', 'Particularidade: ': 'Não'}
 
 def cadastrar_animal():
     limpar()
