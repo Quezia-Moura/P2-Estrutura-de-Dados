@@ -8,7 +8,7 @@ while True:
     ||                               ||
     ||    ( 1 ) CADASTRAR ANIMAL     ||
     ||    ( 2 ) CADASTRAR PESSOA     ||
-    ||    ( 3 ) CONSULTAR ANIMAL     || 
+    ||    ( 3 ) CONSULTAR            || 
     ||    ( X ) SAIR                 ||
     ||                               ||
     ||===============================||
