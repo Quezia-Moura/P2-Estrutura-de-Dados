@@ -36,7 +36,6 @@ def canino():
         part = input('Particularidade: ')
     can['Particularidade'].append(part)
 
-
 def felinos():
     print('\n\tINFORME DETALHES SOBRE O ANIMAL')
 
@@ -213,24 +212,25 @@ def info_pessoa():
     while not n.isalpha():
         print('Nome inválido!')
         n = input('Nome: ')
+    pessoas['Nome'].append(n)
 
-    cpf = input('CPF sem traços e pontos: ')
+    cpf = input('CPF: ')
     while not cpf.isnumeric():
-        print('Cpf inválido!')
-        cpf = input('CPF sem traços e pontos: ')
+        print('CPF inválido!\nDigite apenas números!')
+        cpf = input('CPF: ')
     while len(cpf) < 11:
-        print('cpf inválido!')
-        cpf = input('CPF sem traços e pontos: ')
-    if len(cpf) == 11:
-        cpf_formatado = cpf[0:3] + '.' + cpf[3:6] + '.' + cpf[6:9] + '-' + cpf[9:]
-    print(cpf_formatado)
+        print('CPF inválido!\nO CPF informado deve conter 11 digitos!')
+        cpf = input('CPF: ')
+    pessoas['CPF'].append(cpf)
 
     i_p = input('Idade: ')
     while not i_p.isnumeric():
         print('Idade inválida!')
         i_p = input('Idade: ')
+    pessoas['Idade'].append(i_p)
 
     end = input(str('Endereço: '))
+    pessoas['Endereço'].append(end)
 
     tel = input('Telefone com DDD: ')
     while not tel.isnumeric():
@@ -240,7 +240,7 @@ def info_pessoa():
         print('telefone inválido!')
         tel = input('Telefone com DDD: ')
     if len(tel) == 11:
-        print(tel)
+        pessoas['Telefone'].append(tel)
 
 
 def quer_doar():
@@ -278,10 +278,6 @@ def cadastrar_pessoa():
     if o == '3':
         doar_e_adotar()
 
-
-      
-def consultar():
-    limpar()
 
 
 def limpar():
