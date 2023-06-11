@@ -1,4 +1,5 @@
 from cadastro import *
+from consulta import *
 
 while True:    
     print('''
