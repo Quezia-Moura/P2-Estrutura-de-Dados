@@ -1,6 +1,13 @@
-from dados import *
 from os import name, system
 from time import sleep
+
+dados_canino = open('dados_canino.txt', 'a', encoding='utf-8')
+dados_felinos = open('dados_felinos.txt', 'a', encoding='utf-8')
+dados_aves = open('dados_aves.txt', 'a', encoding='utf-8')
+dados_peixes = open('dados_peixes.txt', 'a', encoding='utf-8')
+dados_outros = open('dados_outros.txt', 'a', encoding='utf-8')
+
+dados_pessoas = open('dados_pessoas.txt', 'a', encoding='utf-8')
 
 
 def canino():
