@@ -17,31 +17,29 @@ def canino():
     while not t.isalpha():
         print('Tipo inválido!')
         t = input('Tipo: ')
-    can['Tipo'].append(t)
 
     i = input('Idade: ')
     while not i.isnumeric():
         print('Idade inválida!')
         i = input('Idade: ')
-    can['Idade'].append(i)
 
     c = input('Cor: ')
     while not c.isalpha():
         print('Cor inválida!')
         c = input('Cor: ')
-    can['Cor'].append(c)
 
     p = input('Porte: ')
     while not p.isalpha():
         print('Porte inválido!')
         p = input('Porte: ')
-    can['Porte'].append(p)
 
     part = input('Particularidade: ')
     while not part.isalpha():
         print('Particularidade inválida!')
         part = input('Particularidade: ')
-    can['Particularidade'].append(part)
+
+    dados_canino.write(f'Tipo: {t}, Idade: {i}, Cor: {c}, Porte: {p}, Particularidade: {part}')
+
 
 def felinos():
     print('\n\tINFORME DETALHES SOBRE O ANIMAL')
@@ -50,31 +48,29 @@ def felinos():
     while not t.isalpha():
         print('Tipo inválido!')
         t = input('Tipo: ')
-    fel['Tipo'].append(t)
 
     i = input('Idade: ')
     while not i.isnumeric():
         print('Idade inválida!')
         i = input('Idade: ')
-    fel['Idade'].append(i)
 
     c = input('Cor: ')
     while not c.isalpha():
         print('Cor inválida!')
         c = input('Cor: ')
-    fel['Cor'].append(c)
 
     p = input('Porte: ')
     while not p.isalpha():
         print('Porte inválido!')
         p = input('Porte: ')
-    fel['Porte'].append(p)
 
     part = input('Particularidade: ')
     while not part.isalpha():
         print('Particularidade inválida!')
         part = input('Particularidade: ')
-    fel['Particularidade'].append(part)
+
+    dados_felinos.write(f'Tipo: {t}, Idade: {i}, Cor: {c}, Porte: {p}, Particularidade: {part}')
+
 
 def aves():
     print('\n\tINFORME DETALHES SOBRE O ANIMAL')
@@ -83,31 +79,29 @@ def aves():
     while not t.isalpha():
         print('Tipo inválido!')
         t = input('Tipo: ')
-    ave['Tipo'].append(t)
 
     i = input('Idade: ')
     while not i.isnumeric():
         print('Idade inválida!')
         i = input('Idade: ')
-    ave['Idade'].append(i)
 
     c = input('Cor: ')
     while not c.isalpha():
         print('Cor inválida!')
         c = input('Cor: ')
-    ave['Cor'].append(c)
 
     p = input('Porte: ')
     while not p.isalpha():
         print('Porte inválido!')
         p = input('Porte: ')
-    ave['Porte'].append(p)
 
     part = input('Particularidade: ')
     while not part.isalpha():
         print('Particularidade inválida!')
         part = input('Particularidade: ')
-    ave['Particularidade'].append(part)
+
+    dados_aves.write(f'Tipo: {t}, Idade: {i}, Cor: {c}, Porte: {p}, Particularidade: {part}')
+
 
 def peixes():
     print('\n\tINFORME DETALHES SOBRE O ANIMAL')
@@ -116,31 +110,29 @@ def peixes():
     while not t.isalpha():
         print('Tipo inválido!')
         t = input('Tipo: ')
-    pei['Tipo'].append(t)
 
     i = input('Idade: ')
     while not i.isnumeric():
         print('Idade inválida!')
         i = input('Idade: ')
-    pei['Idade'].append(i)
 
     c = input('Cor: ')
     while not c.isalpha():
         print('Cor inválida!')
         c = input('Cor: ')
-    pei['Cor'].append(c)
 
     p = input('Porte: ')
     while not p.isalpha():
         print('Porte inválido!')
         p = input('Porte: ')
-    pei['Porte'].append(p)
 
     part = input('Particularidade: ')
     while not part.isalpha():
         print('Particularidade inválida!')
         part = input('Particularidade: ')
-    pei['Particularidade'].append(part)
+
+    dados_peixes.write(f'Tipo: {t}, Idade: {i}, Cor: {c}, Porte: {p}, Particularidade: {part}')
+
 
 def outros():
     print('\n\tINFORME DETALHES SOBRE O ANIMAL')
@@ -149,31 +141,28 @@ def outros():
     while not t.isalpha():
         print('Tipo inválido!')
         t = input('Tipo: ')
-    out['Tipo'].append(t)
 
     i = input('Idade: ')
     while not i.isnumeric():
         print('Idade inválida!')
         i = input('Idade: ')
-    out['Idade'].append(i)
 
     c = input('Cor: ')
     while not c.isalpha():
         print('Cor inválida!')
         c = input('Cor: ')
-    out['Cor'].append(c)
 
     p = input('Porte: ')
     while not p.isalpha():
         print('Porte inválido!')
         p = input('Porte: ')
-    out['Porte'].append(p)
 
     part = input('Particularidade: ')
     while not part.isalpha():
         print('Particularidade inválida!')
         part = input('Particularidade: ')
-    out['Particularidade'].append(part)
+
+    dados_outros.write(f'Tipo: {t}, Idade: {i}, Cor: {c}, Porte: {p}, Particularidade: {part}')
 
 
 def cadastrar_animal():
@@ -219,7 +208,6 @@ def info_pessoa():
     while not n.isalpha():
         print('Nome inválido!')
         n = input('Nome: ')
-    pessoas['Nome'].append(n)
 
     cpf = input('CPF: ')
     while not cpf.isnumeric():
@@ -228,16 +216,13 @@ def info_pessoa():
     while len(cpf) < 11:
         print('CPF inválido!\nO CPF informado deve conter 11 digitos!')
         cpf = input('CPF: ')
-    pessoas['CPF'].append(cpf)
 
     i_p = input('Idade: ')
     while not i_p.isnumeric():
         print('Idade inválida!')
         i_p = input('Idade: ')
-    pessoas['Idade'].append(i_p)
 
     end = input(str('Endereço: '))
-    pessoas['Endereço'].append(end)
 
     tel = input('Telefone com DDD: ')
     while not tel.isnumeric():
@@ -246,22 +231,28 @@ def info_pessoa():
     while len(tel) < 11:
         print('telefone inválido!')
         tel = input('Telefone com DDD: ')
-    if len(tel) == 11:
-        pessoas['Telefone'].append(tel)
+   
+    dados_pessoas.write(f'\nNome: {n}, CPF: {cpf}, Idade: {i_p}, Endereço: {end}, Telefone: {tel}')
 
 
 def quer_doar():
     limpar()
+    cadastrar_animal()
 
 
 def quer_adotar():
     limpar()
     especie = str(input('Qual espécie quer adotar? '))
     preferencia = str(input('Possui alguma preferência? '))
-    
+
+    with open('dados_pessoas.txt', 'a'):
+        dados_pessoas.write(f' | Espécie que quer adotar: {especie}, Preferência: {preferencia}')
+
 
 def doar_e_adotar():
     limpar()
+    cadastrar_animal()
+    quer_adotar()
 
 
 def cadastrar_pessoa():
