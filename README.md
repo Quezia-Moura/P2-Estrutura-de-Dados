@@ -27,3 +27,44 @@ pessoas interessadas na adoção, contendo os dados principais de contato e qual
 ![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/133873524/c26cd1cf-1ae9-46e7-addc-c5b1e6187e8b)
 
 <hr>
+
+<h4>CÓDIGO</h4>
+
+  Foi dividido em 4 (quatro) arquivos <b>.py</b> para melhor manipulação do conteúdo do código.
+ 
+ 
+ - Menu
+
+  Neste arquivo fazemos a inicialização do código com opções para o usuário escolher. De acordo com a opção escolhida, uma nova função é chamada para continuar o código, em um arquivo diferente.
+  
+![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/0b3d511f-6ae5-4faf-ab52-91dd495ea5c9)
+
+  
+ - Cadastro de Animais
+
+  Neste arquivo foram determinadas variáveis, onde cada uma recebe 1 (um) <b>arquivo.txt</b> que armazena os dados de espécies específicas. Exemplo: variável dados_caninos recebe o arquivo.txt que guarda todas as informações de cada canino.
+  
+![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/b8b9eadb-468b-47fb-b840-fe09eac40c19)
+
+
+ - Cadastro de Pessoas
+
+  Aqui fizemos o mesmo que o anterior, porém com apenas uma variável recebendo um arquivo.txt responsável por armazenar todos os dados de cada pessoa que se cadastrar tanto para adotar um animal quanto para colocar animais para a adoção.
+
+![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/254e55ad-9d10-440a-ba86-e24ccf3985ae)
+
+
+ - Consulta
+
+  Neste arquivo é onde é possível realizar consultas dos animais disponíveis para adoção.
+Como os dados foram salvos em arquivos de texto, para conseguirmos acessar e manipular melhor os dados, armazenamos-os em listas fazendo um tratamento de string, tornando assim possível a consulta e relação entre o que o cliente gostaria de adotar e o que temos disponível.
+
+![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/bde0adf3-ad56-406e-9302-5f985c4d3164)
+<hr>
+
+<h4>PROGRAMA RODANDO</h4>
+  
+  Por fim, abaixo se encontra o terminal com o código rodando no momento de consulta, onde por exemplo, a pessoa interessada na adoção informa o animal desejado e uma característica e conforme esses dados conseguimos mostrar o que está disponível para adoção. Logo em seguida é mostrado o início do código com o menu, caso a pessoa queira usa-lo novamente.
+  
+![image](https://github.com/Quezia-Moura/P2-Estrutura-de-Dados/assets/125207561/852fd6cd-7b35-43ed-aca7-c95ed0e9df68)
+
