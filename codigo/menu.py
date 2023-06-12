@@ -1,4 +1,5 @@
-from cadastro import *
+from cadastro_animais import *
+from cadastro_pessoas import *
 from consulta import *
 
 while True:    
